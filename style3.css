@@ -1,0 +1,189 @@
+*{
+    margin: auto;
+}
+.Heading{
+    background-color:rgb(117, 39, 54);
+    margin-right: 0px;
+    width: 100%;
+    position: fixed;
+}
+#logo{
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    width: 100px;
+    color: black;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+}
+#item_def{
+    margin-right: 20px;
+}
+.item{
+    display: inline-block;
+    margin: 10px 10px;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#link:hover{
+    color: white;
+}
+.images{
+    display: flex;
+    align-items: center;
+}
+#img1{
+    margin-top: 50px;
+    height: 50% ;
+    width: 50%;
+    margin-left: 0px
+    
+}
+.title-h1{
+    font-size: 50px;
+    color: brown;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#last{
+    font-size: 20px;
+    font-family: 'Lobster', sans-serif;
+    margin-left: 10px;
+    color: orange;
+}
+.off{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#ant{
+    text-decoration: none;
+}
+#Menu{
+    background-color: lightgoldenrodyellow;
+}
+.main-hdg{
+    text-align: center;
+}
+#hdg{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium'
+}
+.butn{
+    text-align: center;
+}
+#butn_s{
+    margin: 20px 20px;
+}
+#imgs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 50vh;
+}
+
+.mnu{
+    display: flex;
+}
+#Gallery{
+    background-color: rgb(120, 55, 55);
+}
+#col-img{
+    width: 15rem;
+    height: 18rem;
+}
+#About{
+    background-color: lightgoldenrodyellow;
+}
+#sub{
+    text-align: center;
+    font-size: 20px;
+}
+#str{
+    margin-left: 5rem;
+}
+#inf{
+    margin-left: 5rem;
+}
+.map{
+    margin-left: 30rem;
+}
+#Reserve{
+   background-color: lightgoldenrodyellow;
+}
+.main-ttl{
+    display: flex;
+}
+.ttl{
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: wheat;
+}
+#sub-ttl{
+    margin: 50px 50px;
+}
+#frm{
+    width: 200px;
+    margin-bottom: 20px;
+}
+#bnt{
+    background-color: green;
+}
+#fp{
+    color: rgb(133, 109, 66);
+    font-size: 20px;
+}
+#fn{
+    color: rgb(133, 109, 66);
+    font-size: 70px;
+}
+.icon-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.icon, .cart-s{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+.icon i{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-color: blue;
+}
+#footer{
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+.cart-s{
+    font-size: 2rem;
+    background-color: orange;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
